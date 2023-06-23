@@ -1,0 +1,804 @@
+.submitoffer {
+    padding-top: 150px;
+
+    .submit {
+        .row {
+            // justify-content: center;
+
+            .col {
+                justify-content: center;
+                background-color: #fbfcff;
+                border-radius: 5px;
+                padding-left: 50px;
+                padding-right: 34px;
+
+                .property {
+                    text-align: center;
+                    padding-top: 5%;
+                    .uploadedimg {
+                        width: 100%;
+                        height: 273px;
+                        object-fit: contain;
+                        border: 2.53901px dashed #969696;
+                        border-radius: 12.695px;
+                    }
+
+                    .heading {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 20px;
+                        text-align: left;
+                        color: #272c37;
+                        padding-bottom: 3%;
+                    }
+
+                    .dottedborderbox {
+                        width: 100%;
+                        height: 273px;
+                        background-color: #f7f7f7;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        border: 2.53901px dashed #969696;
+                        border-radius: 12.695px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+
+                        img {
+                            margin-bottom: 21.76px;
+                        }
+
+                        p {
+                            font-family: Poppins, Arial, Helvetica, sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #a1a1a1;
+                            margin-bottom: 0;
+                            width: 100%;
+                        }
+
+                        #file-input {
+                            display: none;
+                        }
+                    }
+                }
+                .more-images {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 19px 0 52.71px 0;
+                    .uploaded-path {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13.5517px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #a1a1a1;
+
+                        background-color: #f6f6f6;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+
+                        border-radius: 7.52874px;
+                        border: none;
+                        outline: none;
+                        width: 90.34px;
+                        height: 75.29px;
+                        margin-right: 10.54px;
+                        i {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            cursor: pointer;
+                        }
+                        .uploadedPath {
+                            outline: none;
+                            width: 36.14px;
+                            height: 28.91px;
+                            margin: 0;
+                        }
+                        input {
+                            display: none;
+                        }
+                    }
+                }
+                .addMore {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13.5517px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #a1a1a1;
+                    background: #f6f6f6;
+                    border-radius: 7.52874px;
+                    border: none;
+                    outline: none;
+                    width: 90.34px;
+                    height: 75.29px;
+                    cursor: pointer;
+
+                    .submitaddimg {
+                        outline: none;
+                        margin-top: 3%;
+                        width: 24.09px;
+                        height: 24.09px;
+                        margin-bottom: 5px;
+                        margin-top: 15px;
+                    }
+                    input {
+                        display: none;
+                    }
+                }
+
+                .detail {
+                    .row {
+                        .detailleft {
+                            label {
+                                font-family: Poppins, Arial, Helvetica, sans-serif;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 23px;
+                                color: #767676;
+                            }
+
+                            input {
+                                font-family: Poppins, Arial, Helvetica, sans-serif;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 23px;
+                                color: #a1a1a1;
+                                padding-left: 20px;
+
+                                width: 100%;
+                                height: 46px;
+                                background: #fafafa;
+                                border: 1px solid #e4e4e4;
+                                box-sizing: border-box;
+                                border-radius: 5px;
+                                margin-bottom: 5%;
+                            }
+
+                            input:focus {
+                                outline: none;
+                            }
+
+                            .bedbath {
+                                margin-bottom: 18%;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                button {
+                                    font-family: Poppins;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    text-align: center;
+                                    color: #9a9a9a;
+
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    width: 20%;
+                                    height: 36px;
+                                    float: left;
+                                    outline: none;
+                                }
+
+                                .active {
+                                    background-color: #0042cc;
+                                    color: #ffffff;
+                                }
+
+                                .btn1 {
+                                    border-radius: 6px 0px 0px 6px;
+                                }
+
+                                .btn6 {
+                                    border-radius: 0px 6px 6px 0px;
+                                }
+                            }
+
+                            .sqf {
+                                float: left;
+                                width: 50%;
+                                padding-right: 10px;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    width: 100%;
+                                    padding-left: 20px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            .lot {
+                                float: right;
+                                width: 50%;
+                                padding-left: 10px;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    width: 100%;
+                                    padding-left: 20px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            // .propdetail {
+                            //     label {
+                            //         font-family: Poppins, Arial, Helvetica, sans-serif;
+                            //         font-style: normal;
+                            //         font-weight: 500;
+                            //         font-size: 18px;
+                            //         line-height: 23px;
+                            //         color: #767676;
+                            //     }
+
+                            //     textarea {
+                            //         background: #FAFAFA;
+                            //         border: 1px solid #E4E4E4;
+                            //         box-sizing: border-box;
+                            //         border-radius: 5px;
+                            //         width: 100%;
+                            //         height: 146px;
+                            //     }
+
+                            //     textarea:focus {
+                            //         outline: none;
+                            //     }
+                            // }
+
+                            .mortgage {
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    padding-left: 20px;
+
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            .searchdiv {
+                                position: relative;
+                                margin-top: 5%;
+                                width: 100%;
+                                height: 55px;
+                                padding: 7px 10px;
+                                background: #fafafa;
+                                border: 2px solid #cbcbcb;
+                                box-sizing: border-box;
+                                box-shadow: 5px 5px 30px #d9d9d9;
+                                border-radius: 5px;
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #a1a1a1;
+                                    padding-left: 20px;
+
+                                    height: 39px;
+                                    width: 200px;
+                                    border: none;
+                                    padding: 0px 5px;
+                                    outline: none;
+                                }
+                            }
+                            .searchandimg {
+                                height: 230px;
+                                margin-top: 5%;
+
+                                .submitmapimg {
+                                    width: 100% !important;
+                                    height: 230px !important;
+                                    // z-index: -1;
+                                }
+                            }
+
+                            .noise {
+                                margin-top: 20%;
+                                // height: 140px;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                img {
+                                    margin-left: 6px;
+                                    margin-right: 8px;
+                                }
+
+                                .btn {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #a1a1a1;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    padding: 0;
+                                    text-align: left;
+                                    margin-right: 10px;
+                                    width: 70px;
+                                    height: 38px;
+                                    outline: none;
+                                    box-shadow: none;
+
+                                    &:focus {
+                                        color: #0042cc;
+                                        background: #dee9ff;
+                                        border: 1px solid #0042cc;
+                                    }
+                                }
+
+                                .btn2 {
+                                    color: #0042cc;
+                                    background: #dee9ff;
+                                    border: 1px solid #0042cc;
+                                }
+                            }
+                        }
+
+                        .detailright {
+                            .sqf {
+                                float: left;
+                                width: 50%;
+                                margin-bottom: 5%;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    width: 100%;
+                                    height: 46px;
+                                    padding-left: 20px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            .lot {
+                                float: right;
+                                width: 50%;
+                                padding-left: 10px;
+                                margin-bottom: 5%;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    width: 100%;
+                                    height: 46px;
+                                    padding-left: 20px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            .propdetail {
+                                margin-bottom: 5%;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #828282;
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    width: 100%;
+                                    height: 46px;
+                                    padding-left: 20px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+                            }
+
+                            .box5 {
+                                // width: 100%;
+                                // max-width: 371px;
+
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                    margin-bottom: 9px;
+                                }
+
+                                .row {
+                                    .col-lg-2 {
+                                        div {
+                                            position: relative;
+                                            width: 100%;
+                                            height: 74px;
+
+                                            padding: 12px 0;
+                                            margin-bottom: 20px;
+
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            cursor: pointer;
+                                            border-radius: 6px;
+                                            background: #ffffff;
+                                            border: 1px solid #c6c6c6;
+
+                                            img {
+                                                width: 26.12px;
+                                                height: 26.12px;
+                                                object-fit: contain;
+                                                margin-bottom: 5.88px;
+                                            }
+
+                                            img.c {
+                                                position: absolute;
+                                                top: 7px;
+                                                left: 5px;
+                                                width: 13px;
+                                                height: 13px;
+                                                display: none;
+                                            }
+
+                                            p {
+                                                width: 100%;
+                                                font-family: Poppins, Arial, Helvetica, sans-serif;
+                                                font-style: normal;
+                                                font-weight: 500;
+                                                font-size: 14px;
+                                                line-height: 14px;
+                                                text-align: center;
+                                                color: #333333;
+                                                margin: 0;
+                                            }
+
+                                            @media (max-width: 408px) {
+                                                p {
+                                                    font-size: 10px;
+                                                    line-height: 10px;
+                                                }
+                                            }
+                                        }
+
+                                        div.active {
+                                            background: #0042cc;
+                                            border: 1px solid #0042cc;
+                                            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+
+                                            img.c {
+                                                display: block;
+                                            }
+
+                                            p {
+                                                color: #ffffff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .nearby {
+                                label {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #767676;
+                                }
+
+                                input {
+                                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #a1a1a1;
+                                    width: 100%;
+                                    height: 46px;
+                                    padding-left: 20px;
+
+                                    background: #fafafa;
+                                    border: 1px solid #e4e4e4;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                }
+
+                                input:focus {
+                                    outline: none;
+                                }
+
+                                button {
+                                    margin-top: 5%;
+                                    font-family: Poppins;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #272c37;
+                                    width: 100%;
+                                    height: 46px;
+                                    background: #d1d1d1;
+                                    border-radius: 5px;
+                                    border: none;
+
+                                    img {
+                                        padding: 0 5px 2px 0;
+                                    }
+                                }
+
+                                button:focus {
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .propdetail {
+                label {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #767676;
+                }
+
+                textarea {
+                    background: #fafafa;
+                    border: 1px solid #e4e4e4;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 146px;
+                }
+
+                textarea:focus {
+                    outline: none;
+                }
+            }
+
+            .submit {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                color: #ffffff;
+
+                background: #0042cc;
+                border-radius: 6px;
+                width: 60%;
+                height: 60px;
+                margin-bottom: 14%;
+                border: none;
+                outline: none;
+                float: right;
+            }
+
+            .continue {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                color: #ffffff;
+                background: #2fc89b;
+                border-radius: 6px;
+                width: 48%;
+                height: 60px;
+                outline: none;
+                border: none;
+                margin-top: 5%;
+                margin-bottom: 14%;
+            }
+
+            .con {
+                float: right;
+            }
+
+            .back {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                color: #606060;
+                background: #e6e9f3;
+                border-radius: 6px;
+
+                width: 30%;
+                height: 60px;
+                outline: none;
+                border: none;
+            }
+
+            .bak {
+                margin-top: 5%;
+            }
+
+            .error {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-size: 12px;
+                color: red;
+                text-align: left;
+                margin: 8px 0;
+            }
+
+            .submitted-success {
+                margin: 20px 0;
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-size: 16px;
+                color: #354494;
+                text-align: center;
+            }
+
+            .submitted-error {
+                margin: 20px 0;
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-size: 16px;
+                color: red;
+                text-align: center;
+            }
+        }
+    }
+}

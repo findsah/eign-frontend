@@ -1,0 +1,304 @@
+.blog {
+    .blog1 {
+        .leftcol {
+            margin-top: 80px;
+
+            .wellcometalk {
+                h1 {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 46px;
+                    line-height: 56px;
+                    color: #272c37;
+                }
+
+                p {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #000000;
+                    width: 60%;
+                    margin: 10px 0px 30px 0px;
+                }
+
+                .bwellcomeimgs {
+                    background: #ead4c1;
+                    border-radius: 10px;
+                    width: 100%;
+                    .blogboys {
+                        width: 100%;
+                        padding: 50px;
+                        margin: auto;
+                    }
+                }
+
+                .imgoptions {
+                    padding-top: 20px;
+                    padding-bottom: 25px;
+
+                    span {
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #2fc89b;
+                        padding-left: 10px;
+                    }
+
+                    .blogellipse2 {
+                        padding-left: 30px;
+                    }
+                }
+            }
+            @media (max-width: 765px) {
+                .wellcometalk {
+                    h1 {
+                        font-size: 30px;
+                        line-height: 46px;
+                    }
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 100%;
+                    }
+                }
+                .wellcometext {
+                    h3 {
+                        font-size: 21px !important;
+                        line-height: 30px !important;
+                    }
+                    p {
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+                }
+            }
+
+            .wellcometext {
+                h3 {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 38px;
+                    line-height: 50px;
+                    color: #272c37;
+                }
+
+                p {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #7a7a7a;
+                }
+
+                .readbtn {
+                    background: #2fc89b;
+                    border-radius: 5px;
+                    height: 42px;
+                    width: 134px;
+                    border: none;
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #ffffff;
+                }
+
+                .readbtn:focus {
+                    outline: none;
+                }
+            }
+
+            .row {
+                padding-top: 50px;
+
+                .blogbuy {
+                    width: 100%;
+                }
+
+                .blogrent {
+                    width: 100%;
+                }
+
+                .buyexplain {
+                    padding-top: 25px;
+
+                    span {
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: #2fc89b;
+                        padding-left: 10px;
+                    }
+
+                    p {
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #272c37;
+                    }
+
+                    a {
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 16px;
+                        text-decoration-line: underline;
+                        color: #2fc89b;
+                    }
+                }
+            }
+        }
+
+        .rightcol {
+            .searcheading {
+                margin-top: 50px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 16px;
+                color: #272c37;
+            }
+
+            .searchdiv {
+                width: 260px;
+                height: 42px;
+                padding: 0px 10px;
+                background: #ffffff;
+                border: 1px solid #acacac;
+                box-sizing: border-box;
+                border-radius: 5px;
+                margin-bottom: 105px;
+            }
+
+            .searchbox {
+                height: 39px;
+                width: 200px;
+                border: none;
+                padding: 0px 5px;
+            }
+
+            .searchbox:focus {
+                outline: none;
+            }
+
+            .blogtalk {
+                background-color: #0042cc;
+                border-radius: 10px;
+            }
+
+            .guide {
+                margin-top: 20px;
+                margin-bottom: 18px;
+
+                span {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #2fc89b;
+                    padding-left: 10px;
+                }
+
+                p {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #272c37;
+                    width: 80%;
+                }
+
+                a {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-decoration-line: underline;
+                    color: #2fc89b;
+                }
+            }
+        }
+    }
+
+    .blog2 {
+        h2 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 30px;
+            color: #272c37;
+            @media(max-width: 765px){
+                font-size: 23px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .blogimg {
+            width: 100%;
+        }
+
+        .guide {
+            margin-top: 26px;
+            margin-bottom: 30px;
+
+            h2 {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 40px;
+                color: #272c37;
+                margin-left: 300px;
+            }
+
+            span {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                color: #2fc89b;
+                padding-left: 10px;
+            }
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                color: #272c37;
+            }
+
+            a {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                text-decoration-line: underline;
+                color: #2fc89b;
+            }
+        }
+    }
+}

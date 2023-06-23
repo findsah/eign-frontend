@@ -1,0 +1,437 @@
+.experience {
+    .to-see {
+        margin-bottom: 100px;
+
+        @media (max-width: 575px) {
+            .backimg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                display: flex !important;
+                width: 100%;
+                min-height: 70vh;
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                background-size: cover;
+                border-radius: 0 0 0 80px;
+                background-repeat: no-repeat;
+                background-image: url("../../assets/images/mainbg.png");
+
+                img {
+                    width: 40%;
+                    height: 40%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .row {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("./../../assets/images/bg-pattern.png");
+
+            .experiencetalks {
+                min-height: 100vh;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                h2 {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 46px;
+                    line-height: 60px;
+                    color: #272c37;
+                    margin-bottom: 64px;
+                }
+
+                .subscribe-field {
+                    height: 77px;
+                    display: flex;
+                    align-items: center;
+                    box-sizing: border-box;
+                    background: #ffffff;
+                    border: 1px solid #0042cc;
+                    box-sizing: border-box;
+                    box-shadow: 0px 4px 150px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    margin-bottom: 34px;
+
+                    div {
+                        width: 100%;
+                        height: 100%;
+
+                        display: flex;
+                        align-items: center;
+
+                        border-radius: 10px 0 0 10px;
+                        background-color: #ffffff;
+
+                        input {
+                            width: 100%;
+                            height: 100%;
+                            padding: 10px;
+
+                            font-family: Poppins, Arial, Helvetica, sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 30px;
+                            text-align: left;
+
+                            outline: none;
+                            border: none;
+                            border-radius: 9px 0 0 9px;
+                        }
+                    }
+
+                    button {
+                        height: 100%;
+                        width: 155px;
+
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        color: #ffffff;
+
+                        outline: none;
+                        border: none;
+                        background: #0042cc;
+                        border-radius: 0 9px 9px 0;
+                    }
+                }
+                @media (max-width: 793px) {
+                    min-height: 60vh;
+                    h2 {
+                        font-size: 30px;
+                        line-height: 40px;
+                        margin-bottom: 44px;
+                        margin-top: 100px;
+                    }
+                    .subscribe-field {
+                        height: 50px;
+                        width: 70%;
+                        margin-left: 15%;
+                        button {
+                            height: 100%;
+                            width: 120px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            .e-home {
+                width: 100%;
+                min-height: 100vh;
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                background-size: cover;
+                border-radius: 0 0 0 80px;
+                background-repeat: no-repeat;
+                background-image: url("../../assets/images/mainbg.png");
+
+                img {
+                    width: 90%;
+                    height: 60%;
+                    object-fit: contain;
+                }
+                @media (max-width: 575px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .bluebanner {
+        background: #0042cc;
+        width: 100%;
+        padding-top: 2%;
+
+        .btnclass {
+            display: flex;
+            justify-content: center;
+
+            .buyerbtn {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 33px;
+                color: #ffffff;
+                border: none;
+
+                width: 100%;
+                height: 70px;
+                max-width: 350px;
+                background: #2fc89b;
+                border-radius: 8px 0px 0px 8px;
+                margin-bottom: 10%;
+                outline: none;
+            }
+
+            .buyerbtn:before {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-top: 0px solid #2fc89b;
+                border-right: 2px solid #2fc89b;
+                border-bottom: 2px solid #2fc89b;
+                border-left: 0px solid #2fc89b;
+                content: "";
+                transform: rotate(45deg);
+                margin-top: 30px;
+                background: #2fc89b;
+            }
+
+            .sellerbtn {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 33px;
+                color: #ffffff;
+                border: none;
+
+                width: 100%;
+                height: 70px;
+                max-width: 350px;
+                background: #3d76ee;
+                border-radius: 0px 8px 8px 0px;
+                margin-bottom: 10%;
+                outline: none;
+            }
+            @media (max-width: 575px) {
+                .buyerbtn {
+                    font-size: 18px;
+                    width: 50%;
+                    height: 50px;
+                }
+                .sellerbtn {
+                    font-size: 18px;
+                    width: 50%;
+                    height: 50px;
+                }
+                .buyerbtn:before {
+                    margin-top: 30px;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .part1 {
+            .ellipseline {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .search {
+                .expproperty {
+                    background-color: white;
+                    border-radius: 40px;
+                    width: 52.64px;
+                    height: 53.91px;
+                    text-align: center;
+                    padding-top: 15px;
+                }
+
+                .title {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    text-align: right;
+                    color: #ffffff;
+                }
+
+                .description {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: right;
+                    color: #ffffff;
+                }
+            }
+            @media (max-width: 575px) {
+                .title {
+                    font-size: 14px !important;
+                    line-height: 20px !important;
+                }
+                .description {
+                    font-size: 12px !important;
+                    line-height: 18px !important;
+                }
+            }
+        }
+
+        .part2 {
+            padding: 0px;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+                max-width: 324px;
+                max-height: 665.23px;
+                margin-top: -22%;
+            }
+        }
+
+        .part3 {
+            .search {
+                margin-bottom: 6.5%;
+
+                .expproperty {
+                    background-color: white;
+                    border-radius: 40px;
+                    width: 52.64px;
+                    height: 53.91px;
+                    text-align: center;
+                    padding-top: 15px;
+                }
+
+                .title {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #ffffff;
+                }
+                .description {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #ffffff;
+                }
+            }
+            @media (max-width: 575px) {
+                .title {
+                    font-size: 14px !important;
+                    line-height: 20px !important;
+                }
+                .description {
+                    font-size: 12px !important;
+                    line-height: 18px !important;
+                }
+            }
+        }
+    }
+
+    .downloadapp {
+        .downloadoption {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 50px;
+                color: #272c37;
+                margin-top: 50px;
+            }
+
+            .expappstore {
+                width: 131.5px;
+                height: 44px;
+            }
+
+            .expplaystore {
+                width: 148.35px;
+                height: 44px;
+                margin-left: 4%;
+            }
+            @media (max-width: 766px) {
+                p {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+
+                .expappstore {
+                    width: 67px;
+                    height: 22px;
+                }
+
+                .expplaystore {
+                    width: 74px;
+                    height: 22px;
+                    margin-left: 4%;
+                }
+            }
+        }
+
+        .expblank {
+            width: 100%;
+            margin-top: -15%;
+            position: relative;
+            z-index: -1;
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .experience {
+        .bluebanner {
+            .part2 {
+                margin-top: 22%;
+            }
+
+            .part1 {
+                .ellipseline {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .experience {
+        .bluebanner {
+            .part1 {
+                .search {
+                    .description {
+                        line-height: 18px;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .part3 {
+                .search {
+                    .description {
+                        line-height: 20px;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

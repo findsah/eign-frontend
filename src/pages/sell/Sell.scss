@@ -1,0 +1,624 @@
+.sell {
+    .selling {
+        .bg-pattern {
+            height: 100%;
+            min-height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("../../assets/images/bg-pattern.png");
+
+            .col {
+                padding: 0 0 80px 0;
+
+                .row {
+                    height: 100%;
+                    background: #f3f7ff;
+
+                    .c {
+                        .sell {
+                            height: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+
+                            h2 {
+                                font-family: Poppins, Arial, Helvetica, sans-serif;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 46px;
+                                line-height: 56px;
+                                color: #272c37;
+                                margin-bottom: 41px;
+                            }
+
+                            button {
+                                width: 240px;
+                                height: 60px;
+
+                                font-family: Poppins, Arial, Helvetica, sans-serif;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 22px;
+                                text-align: center;
+                                color: #ffffff;
+
+                                border: none;
+                                outline: none;
+                                border-radius: 10px;
+                                background: #0042cc;
+                            }
+                        }
+
+                        .sellSmall {
+                            height: 195px;
+                            padding-top: 27px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+                        }
+
+                        .sellBig {
+                            height: 100%;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                    @media (max-width: 836px) {
+                        height: 70%;
+                        .c {
+                            .sell {
+                                h2 {
+                                    font-size: 20px;
+                                }
+                                button {
+                                    width: 150px;
+                                    height: 40px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    @media (max-width: 575px) {
+                        height: 40%;
+                        .c {
+                            .sellSmall {
+                                margin-top: -50px;
+                            }
+                            h2 {
+                                line-height: 30px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sell-with {
+        padding: 0;
+
+        .row {
+            justify-content: center;
+
+            .c {
+                padding: 0;
+
+                .hr {
+                    width: 100%;
+                    margin-top: 59px;
+                    border-top: 1px solid #535353;
+                }
+
+                .hr.s {
+                    width: 85%;
+                }
+
+                h3 {
+                    width: 100%;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 200;
+                    font-size: 100px;
+                    text-align: center;
+                    color: #535353;
+                    margin-bottom: 45px;
+                }
+
+                h4 {
+                    width: 100%;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 30px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #272c37;
+                    margin-bottom: 91px;
+                }
+
+                h5 {
+                    width: 100%;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 39px;
+                    text-align: center;
+                    color: #272c37;
+                    margin-bottom: 14px;
+                }
+
+                p {
+                    width: 100%;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: #4f4f4f;
+                }
+            }
+        }
+        @media (max-width: 836px) {
+            margin-top: -200px;
+        }
+        @media (max-width: 575px) {
+            margin-top: -370px;
+        }
+    }
+
+    .selling-your {
+        margin: 90px 0 80.4px 0;
+        color: #ffffff;
+        padding: 135px 0 105px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/images/gain-bg.png");
+
+        .sell {
+            h6 {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 36px;
+                color: #ffffff;
+                margin-bottom: 41px;
+            }
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                margin-bottom: 13px;
+
+                img {
+                    width: 15px;
+                    height: 12px;
+                    margin: 4px 27px 0 0;
+                }
+            }
+
+            button {
+                height: 60px;
+                width: 195px;
+                margin: 51px 0;
+
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #ffffff;
+
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                background: #34bc94;
+
+                &:hover {
+                    box-shadow: 0 1px 3px 0 rgba(15, 15, 15, 0.76);
+                }
+            }
+        }
+
+        .home {
+            width: 100%;
+            height: 100%;
+            max-width: 495px;
+            max-height: 440px;
+        }
+        @media (max-width: 766px) {
+            margin: 20px 0 20px 0;
+            padding: 30px 0 20px 0;
+            .sell {
+                h6 {
+                    margin-top: 20px;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+                p {
+                    font-size: 12px !important;
+                    line-height: 20px !important;
+                }
+            }
+            .row {
+                flex-direction: column-reverse;
+            }
+            .home-col {
+                display: flex;
+                justify-content: center;
+                .home {
+                    max-width: 295px;
+                    max-height: 240px;
+                }
+            }
+        }
+    }
+
+    .easy {
+        margin-bottom: 29.6px;
+
+        .row {
+            .c {
+                div {
+                    width: 100%;
+                    height: 100%;
+                    padding: 33px 0 21px 0;
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                    h3 {
+                        width: 100%;
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 60px;
+                        line-height: 60px;
+                        text-align: center;
+                        color: #272c37;
+                        margin: 0;
+                    }
+
+                    h4 {
+                        width: 100%;
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 40px;
+                        color: #272c37;
+                        margin-bottom: 0;
+                    }
+
+                    h6 {
+                        width: 100%;
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 39px;
+                        text-align: center;
+                        color: #272c37;
+                        margin-bottom: 0;
+                    }
+                }
+
+                div.active {
+                    background: #0042cc;
+                    border-radius: 7.42753px;
+                    border: 0.742753px solid #a1a1a1;
+
+                    h3 {
+                        color: #ffffff;
+                    }
+
+                    h6 {
+                        color: #ffffff;
+                    }
+                }
+
+                div.border {
+                    background: #ffffff;
+                    border-radius: 7.42753px;
+                    border: 0.742753px solid #a1a1a1;
+                }
+            }
+        }
+    }
+
+    .selltable {
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            background: #f4f8ff;
+
+            .col2 {
+                background: #e2ebfc;
+            }
+        }
+
+        .table td {
+            padding: 12px 15px;
+            text-align: center;
+            font-size: 16px;
+            height: 50px;
+            border: none;
+        }
+    }
+
+    .sellformcal {
+        background: #f4f8ff;
+        margin-top: 60px;
+        margin-bottom: -68px;
+        padding-top: 80px;
+        padding-bottom: 70px;
+
+        h3 {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+            color: #272c37;
+            @media (max-width: 764px) {
+                font-size: 20px;
+            }
+        }
+
+        .row {
+            .sellform {
+                p {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+
+                    color: #6a6a6a;
+                }
+
+                input {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #6a6a6a;
+                    padding: 15px 11px;
+
+                    background: #ffffff;
+                    width: 100%;
+                    border: 1.3px solid #a1a1a1;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    height: 50px;
+                    outline: none;
+                }
+
+                select {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #6a6a6a;
+                    padding: 15px 11px;
+
+                    background: #ffffff;
+                    border: 1.3px solid #a1a1a1;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    height: 50px;
+                    width: 100%;
+                    margin-bottom: 15px;
+                    outline: none;
+                }
+
+                button {
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #f9f9f9;
+
+                    background: #0042cc;
+                    list-style: none;
+                    border-radius: 5px;
+                    border: none;
+                    width: 100%;
+                    height: 60px;
+                    outline: none;
+                }
+            }
+
+            .sellcal {
+                margin-top: 40px;
+
+                .table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    background: #e2ebfc;
+                    border-radius: 10px;
+                    height: 299px;
+
+                    .col2 {
+                        background: #0042cc;
+                        color: #ffffff;
+                    }
+                }
+
+                .table td {
+                    background: #e2ebfc;
+                    padding: 12px 15px;
+                    text-align: left;
+                    font-size: 16px;
+                    color: black;
+                }
+            }
+
+            .selltalk {
+                background: #ecfff9;
+
+                border: 1.3px solid #2fc89b;
+                box-sizing: border-box;
+                border-radius: 5px;
+                float: right;
+                width: 50%;
+                height: 60px;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+
+                color: #2fc89b;
+            }
+
+            .selltalk:focus {
+                outline: none;
+            }
+        }
+        @media (max-width: 575px) {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .sell {
+        .selltable {
+            .table td {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .sell {
+        .easy {
+            .c {
+                div {
+                    h3 {
+                        font-size: 30px !important;
+                        line-height: normal !important;
+                    }
+
+                    h4 {
+                        font-size: 24px !important;
+                        line-height: normal !important;
+                    }
+
+                    h6 {
+                        font-size: 18px !important;
+                        line-height: normal !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .sell {
+        .easy {
+            .c {
+                div {
+                    h3 {
+                        font-size: 18px !important;
+                        line-height: normal;
+                    }
+
+                    h4 {
+                        font-size: 15px !important;
+                        line-height: normal;
+                    }
+
+                    h6 {
+                        font-size: 10px !important;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .sell {
+        .selling {
+            .bg-pattern {
+                .col {
+                    .row {
+                        .c {
+                            .sell {
+                                padding: 60px 0 56px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .sell-with {
+            .row {
+                margin: 0;
+
+                .c {
+                    .hr {
+                        margin-top: 41px;
+                    }
+
+                    h3 {
+                        font-size: 50px;
+                        margin-bottom: 25px;
+                    }
+
+                    h4 {
+                        margin-bottom: 51px;
+                    }
+
+                    h5 {
+                        font-size: 18px;
+                        line-height: normal;
+                    }
+
+                    p {
+                        font-size: 11px;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}

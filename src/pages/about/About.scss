@@ -1,0 +1,503 @@
+.about {
+    .to-gain {
+        .row {
+            min-height: 100vh;
+            padding: 164px 0 0 0;
+
+            .missiontalks {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 46px;
+                    line-height: 56px;
+                    color: #272c37;
+                }
+
+                p {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 38px;
+                    color: #444953;
+                }
+            }
+
+            .missionimg1 {
+                position: relative;
+                margin-top: 120px;
+                margin-bottom: 20px;
+
+                .aboutDawn1 {
+                    height: 100%;
+                    width: 100%;
+                    max-width: 729.24px;
+                    max-height: 410.45px;
+                }
+
+                .aboutRectangle {
+                    position: absolute;
+                    top: -28.08px;
+                    right: 0;
+                    height: 50%;
+                    width: 50%;
+                    z-index: -1;
+                    object-fit: contain;
+                }
+            }
+
+            .aboutDawn2 {
+                height: 510px;
+                width: 100%;
+                max-width: 305.57px;
+                max-height: 458.35px;
+            }
+            @media (max-width: 766px) {
+                padding: 0;
+                .showCol {
+                    justify-content: center;
+                    display: flex !important;
+                }
+                .hideCol {
+                    display: none;
+                }
+                .aboutCol {
+                    text-align: center;
+                }
+            }
+            @media (max-width: 991px) {
+                .missiontalks {
+                    h2 {
+                        font-size: 36px;
+                        line-height: 46px;
+                    }
+                    p {
+                        font-size: 15px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            @media (max-width: 575px) {
+                .missionimg1 {
+                    margin: 0px;
+                }
+                .missiontalks {
+                    h2 {
+                        font-size: 26px;
+                        line-height: 36px;
+                    }
+                    p {
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .centertext {
+        margin: 100px 0 100px 0;
+
+        .p {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 38px;
+            color: #444953;
+        }
+        @media (max-width: 575px) {
+            margin: 50px 0 50px 0;
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .visionimg {
+        position: relative;
+        margin-bottom: 60px;
+
+        .aboutvision2 {
+            width: 90%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .bgPattern {
+            position: absolute;
+            width: 50%;
+            height: 10px;
+            top: 5%;
+            z-index: -1;
+        }
+
+        .aboutvision1 {
+            position: absolute;
+            width: 70%;
+            height: 100%;
+            left: 25%;
+            top: 15%;
+        }
+    }
+
+    .visiontalks {
+        margin-top: 20px;
+
+        h2 {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 56px;
+            color: #272c37;
+        }
+
+        p {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 38px;
+            color: #444953;
+        }
+        @media (max-width: 990px) {
+            h2 {
+                font-size: 32px;
+                line-height: 46px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .img-container {
+        .aboutusimgs {
+            margin-top: 100px;
+
+            .aboutrectdown {
+                position: absolute;
+                width: 20%;
+                height: 50%;
+                left: -3%;
+                top: -10%;
+            }
+
+            .aboutroom {
+                width: 100%;
+            }
+        }
+        @media (max-width: 575px) {
+            margin: -70px 0 -70px 0;
+            .aboutusimgs {
+                margin-top: 70px;
+            }
+        }
+    }
+
+    .aboutustalks {
+        margin: 100px 0 90px 0;
+        background: transparent;
+
+        h2 {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 56px;
+            color: #272c37;
+        }
+
+        .p1 {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 60px;
+            line-height: 38px;
+            color: #444953;
+        }
+
+        .p2 {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 34px;
+            color: #444953;
+        }
+        @media (max-width: 991px) {
+            h2 {
+                font-size: 30px;
+                line-height: 46px;
+            }
+            .p1 {
+                font-size: 14px;
+                line-height: 28px;
+            }
+            .p2 {
+                font-size: 12px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .aboutusrightDiv {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 90px;
+
+        .aboutusright {
+            position: absolute;
+            top: -100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            min-height: 535px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-image: url("../../assets/images/bg-aboutus.png");
+
+            .bordertop {
+                width: 70%;
+                margin-right: auto;
+                border: 1px solid #becce9;
+                margin-top: 43%;
+            }
+
+            .borderright {
+                width: 70%;
+                margin-left: auto;
+                border: 1px solid #becce9;
+                margin-bottom: 50%;
+            }
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 40px;
+                padding: 0 50px;
+                color: #272c37;
+                margin-top: 5%;
+                @media (max-width: 991px) {
+                    font-size: 14px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .selling-your {
+        margin: 0 0 80.4px 0;
+        color: #ffffff;
+        padding: 135px 0 105px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/images/gain-bg.png");
+        .sell {
+            h6 {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 36px;
+                color: #ffffff;
+                margin-bottom: 41px;
+            }
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                margin-bottom: 13px;
+
+                img {
+                    width: 15px;
+                    height: 12px;
+                    margin: 4px 27px 0 0;
+                }
+            }
+
+            button {
+                height: 60px;
+                width: 195px;
+                margin: 51px 0;
+
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #ffffff;
+
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                background: #34bc94;
+
+                &:hover {
+                    box-shadow: 0 1px 3px 0 rgba(15, 15, 15, 0.76);
+                }
+            }
+            @media (max-width: 991px) {
+                h6 {
+                    margin-top: 20px;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .home {
+            width: 100%;
+            height: 100%;
+            max-width: 495px;
+            max-height: 440px;
+        }
+        @media (max-width: 767px) {
+            padding: 20px 0 20px 0;
+            .row {
+                flex-direction: column-reverse;
+            }
+            .home-col {
+                display: flex;
+                justify-content: center;
+                .home {
+                    width: 295px;
+                    height: 240px;
+                }
+            }
+        }
+    }
+
+    .meetus {
+        margin-bottom: 100px;
+
+        .aboutmeeting {
+            width: 100%;
+        }
+        p {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 38px;
+            padding-top: 10%;
+            color: #444953;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .aboutinform {
+        p {
+            font-size: 18px !important;
+            line-height: 32px !important;
+            font-weight: 400 !important;
+        }
+        .aboutphone {
+            height: 20px;
+            width: 20px;
+        }
+
+        .contact {
+            .phone {
+                margin-bottom: 20px;
+            }
+
+            .aboutmail {
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        span {
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .aboutinform {
+        p {
+            font-size: 14px !important;
+            line-height: 25px !important;
+            font-weight: 200 !important;
+        }
+    }
+}
+@media (max-width: 434px) {
+    .aboutinform {
+        p {
+            font-size: 10px !important;
+            line-height: 20px !important;
+            font-weight: 200 !important;
+        }
+        span {
+            font-size: 14px !important;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .about {
+        .meetus {
+            p {
+                font-size: 18px;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+@media (max-width: 995px) {
+    .about {
+        .meetus {
+            p {
+                font-size: 15px;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        .aboutusrightDiv {
+            height: 20%;
+            margin-bottom: -30%;
+            .aboutusright {
+                position: relative !important;
+            }
+        }
+    }
+}

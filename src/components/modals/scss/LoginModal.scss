@@ -1,0 +1,240 @@
+.login-modal {
+    .modal-dialog {
+        .modal-content {
+            padding: 10px;
+            background-color: #f0f3f4;
+            border-radius: 15px;
+
+            .modal-body {
+                h1 {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    padding-top: 5%;
+                    font-size: 20px;
+                    color: #354494;
+                    text-align: left;
+                }
+
+                .error {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-weight: normal;
+                    font-size: 12px;
+                    color: red;
+                    text-align: left;
+                }
+
+                .success {
+                    margin-top: 20px;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #354494;
+                    text-align: center;
+                }
+
+                .error-incorrect {
+                    margin-top: 20px;
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: red;
+                    text-align: center;
+                }
+
+                p {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #354494;
+
+                    span {
+                        font-family: Poppins, Arial, Helvetica, sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #eb6364;
+                        padding-left: 5px;
+                        cursor: pointer;
+                    }
+                }
+
+                .google {
+                    width: 100%;
+                    font-family: Poppins, Arial, Helvetica, sans-serif !important;
+                    border: 1px solid #bbbaba !important;
+                    font-size: 16px !important;
+                    padding: 12px 8px !important;
+                    border-radius: 10px !important;
+                    margin-top: 10px;
+                    padding: 3px !important;
+
+                    color: #1a2849 !important;
+                    // background-color: rgb(239,239,239) !important;
+
+                    display: flex !important;
+                    justify-content: center;
+                    box-shadow: none !important;
+
+                    // background-image: url("../../assets/icons/l-google.png");
+                    // background-repeat: no-repeat;
+
+                    .logingoogle {
+                        margin-right: 4px;
+                    }
+                }
+
+                .google:focus {
+                    outline: none;
+                }
+
+                .kep-login-facebook {
+                    width: 100%;
+                    border: 1px solid #067aea;
+                    font-size: 16px;
+                    padding: 12px 8px;
+                    border-radius: 10px;
+                    background-color: #067aea;
+                    color: #fff;
+                    margin-top: 10px;
+                    outline: none;
+                }
+            }
+
+            p {
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #354494;
+                margin-top: 20px;
+            }
+
+            .maildiv {
+                width: 100%;
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                border: 1px solid #bbbaba;
+                font-size: 16px;
+                padding: 5px 5px;
+                border-radius: 10px;
+                margin-top: 10px;
+
+                .loginmail {
+                    width: 16px;
+                    height: 10px;
+                    margin-top: 4%;
+                    margin-right: 7px;
+                    float: right;
+                    color: #33657d;
+                }
+
+                .mailbox {
+                    height: 45px;
+                    width: 90%;
+                    border: none;
+                    background-color: #f0f3f4;
+                    color: #33657d;
+                }
+
+                .mailbox:focus {
+                    outline: none;
+                }
+            }
+
+            .paswdiv {
+                width: 100%;
+                font-family: Poppins, Arial, Helvetica, sans-serif;
+                border: 1px solid #bbbaba;
+                font-size: 16px;
+                padding: 5px 5px;
+                border-radius: 10px;
+                margin-top: 10px;
+
+                .loginpassword {
+                    width: 10px;
+                    height: 14px;
+                    margin-right: 10px;
+                    margin-top: 4%;
+                    float: right;
+                    color: #33657d;
+                }
+
+                .paswbox {
+                    height: 45px;
+                    width: 90%;
+                    border: none;
+                    background-color: #f0f3f4;
+                    color: #33657d;
+                }
+
+                .paswbox:focus {
+                    outline: none;
+                }
+            }
+
+            .showme {
+                margin-top: 5px;
+
+                input {
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin: -2px 4px 0 5px;
+                    vertical-align: middle;
+                    background-image: url("../../../assets/icons/l-box.png");
+                    background-size: cover;
+                    cursor: pointer;
+                }
+
+                label {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    font-size: 13px;
+                    display: inline-block;
+                    margin-bottom: 0.5rem;
+                    color: #48536d;
+                    cursor: pointer;
+                    text-align: center;
+                }
+
+                span {
+                    font-family: Poppins, Arial, Helvetica, sans-serif;
+                    float: right;
+                    color: #33657d;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+
+            .loginbtn {
+                width: 100%;
+                height: 56px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #354494;
+                color: #fff;
+                border: none;
+                font-weight: 800;
+                margin-top: 20px;
+                font-family: Gilroy-Medium;
+                margin-bottom: 5px;
+            }
+
+            .loginbtn:focus {
+                outline: none;
+            }
+
+            .forget {
+                text-align: center;
+
+                a {
+                    color: #354494 !important;
+                    font-size: 13px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

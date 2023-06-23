@@ -1,0 +1,799 @@
+/* 
+author: arman ali
+github: https://github.com/Arman-Arzoo
+whatsapp: +923430048341
+*/
+@import "../breakpoint.scss";
+
+.AppLayout {
+  max-width: 2500px;
+  margin: 0 auto;
+
+  .navbar {
+    max-width: 2500px;
+  }
+}
+
+
+
+.btn-main {
+  width: 245px;
+  height: 36px;
+  background: linear-gradient(92.39deg, #ff9700 0%, #de8300 91.96%);
+  border-radius: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 1rem;
+  border: none;
+}
+
+.outlined-btn {
+  width: 245px;
+  height: 36px;
+  border: 1px solid #ff9700 !important;
+  border-radius: 14px;
+  color: #ff9700;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 1rem;
+  border: none;
+}
+
+.slick-list {
+  position: relative;
+  /* display: block; */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// global use class
+
+// btn_primary you can pass width and height through style
+.btn_primary {
+  width: 122px;
+  height: 33px;
+  background: linear-gradient(92.39deg, #FF9700 0%, #DE8300 91.96%);
+  border-radius: 14px;
+  border: none;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.063em;
+  color: #FFFFFF;
+}
+
+// green button
+.btn_secondary {
+  background: #6FCE00;
+  box-shadow: 0px 14px 24px -8px rgba(111, 206, 0, 0.4);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 8px;
+  color: #FFFFFF;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+
+}
+
+// blue button
+.btn_blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 8px;
+  width: 116.6px;
+  height: 36px;
+  background: #0081CB;
+  border-radius: 14px;
+  border: none;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+// error button
+.btn_error {
+
+  background: #FB0000;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 8px;
+  color: #FFFFFF;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+}
+
+// h2 which font size is 40 and color is dark blue
+h2 {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  letter-spacing: 0.063em;
+  /* Dark blue */
+  color: #1F518B;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 0.4rem;
+}
+
+// h3 whcih font size is 24 and color is blue
+h3 {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1F518B;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+// h5 which font size is 12 and color is black
+h5 {
+
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #161616;
+
+}
+
+// h6 font size is 20px and color is gray
+h6 {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #515151;
+}
+
+// paragraph which font size is 14 and color is white
+.p_white {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+// paragraph which font size is 10 and color is gray
+.p_gray_10 {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #909090;
+}
+
+// paragraph which font size is 20 and dark blue
+.p_blue_size_20 {
+  color: #1F518B;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.063em;
+  margin-top: revert;
+}
+
+//  paraggraph which font sixe is 14 and gray color
+.p_gray_14 {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #515151;
+}
+
+// customize range slider 
+
+.custom_range_slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  margin-top: 0.8rem;
+
+  .min {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .max {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .zero {
+    position: absolute;
+    top: -28px;
+    left: 6px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .max_num {
+    position: absolute;
+    top: -28px;
+    right: 2px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .range-slider {
+    border: 1px dashed #1F518B;
+    height: 0;
+
+    .range-slider__thumb {
+      background: #1F518B;
+      height: 20px;
+      width: 20px;
+      border: 2px solid white;
+
+    }
+
+  }
+
+  .single-thumb .range-slider__thumb[data-lower] {
+    width: 0;
+    border: none;
+  }
+
+}
+
+.similer-vanues {
+  margin-top: 5rem;
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.063em;
+    color: #1F518B;
+  }
+
+  .vanueHighlight {
+    background: #64e2ff !important;
+    width: 42.7%;
+    height: 25px;
+    top: 15.5rem;
+    right: 40.5%;
+    position: absolute;
+    z-index: -1;
+  }
+
+}
+
+// custom modal for popup
+.custom_modal {
+
+
+  .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+    background: #F5FAFF;
+    box-shadow: 0px 0px 12px 2px rgba(172, 214, 255, 0.8);
+  }
+
+  .header_wrapper {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .icon_wrapper {
+      position: absolute;
+      top: 0;
+      right: 10px;
+    }
+  }
+}
+
+// input custom style
+
+//custom input type select
+.select {
+  color: #1F518B;
+  background: #FFFFFF;
+  padding: 6px 8px;
+  border: 1px solid #1F518B;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+}
+
+.select_orange {
+  // color: #1F518B;
+  // background: linear-gradient(92.39deg, #FF9700 0%, #DE8300 91.96%);
+  padding: 6px 8px;
+  border: 1px solid #FF9700;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  color: #FF9700;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+
+
+}
+
+// custom input type text
+.text {
+  border: 1px solid #1F518B;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #909090;
+  height: 36px;
+  outline: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+// custom checkbox
+.checkbox {
+  input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+  }
+
+  input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 33px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1F518B !important;
+    line-height: 25px !important;
+  }
+
+  input[type="checkbox"]+label::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    outline: 1px solid #1F518B;
+    border-radius: 4px;
+    background: white;
+    left: 0;
+    top: 0;
+  }
+
+  input[type="checkbox"]:checked+label::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    outline: 1px solid #1F518B;
+    border-radius: 4px;
+    background: white;
+    left: 0;
+    top: 0;
+  }
+
+  input[type="checkbox"]:checked+label::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    outline: 1px solid #1F518B;
+    border-radius: 4px;
+    left: 0;
+    top: 0;
+    background-image: url(../assets/checkmark.png);
+    background-size: contain;
+  }
+}
+
+// custom Error poppu
+.custom_modal_error {
+
+  .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+    background: linear-gradient(140.6deg, #002C6D 0%, #0082CF 100%);
+    border-radius: 8px;
+
+  }
+
+  .content_Wrapper_error {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-family: 'SF UI Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.063em;
+
+      /* White */
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+// custom search bar
+.search {
+  /* White */
+
+  background: #FFFFFF;
+  /* Dark blue */
+
+  border: 1px solid #1F518B;
+  border-radius: 4px;
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.017em;
+
+  /* Grey/Light */
+  color: #909090;
+  width: 256px;
+  height: 36px;
+  outline: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+// custom success popup
+// custom Error poppu
+.custom_modal_success {
+
+  .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+    background: linear-gradient(140.6deg, #002C6D 0%, #0082CF 100%);
+    border-radius: 8px;
+
+  }
+
+  .css-mbdu2s {
+    background: linear-gradient(140.6deg, #002C6D 0%, #0082CF 100%) !important;
+    border-radius: 8px !important;
+  }
+
+  .content_Wrapper_success {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .icon_check {
+      background: #6FCE00;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 3rem;
+      color: white;
+
+
+    }
+
+    p {
+      font-family: 'SF UI Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.063em;
+      color: #FFFFFF;
+
+    }
+
+    .social_share {
+      p {
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.063em;
+
+        /* White */
+
+        color: #FFFFFF;
+      }
+
+      .social_icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .social_icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 36px;
+          width: 36px;
+          border-radius: 50%;
+          color: white;
+          background: linear-gradient(92.39deg, #FF9700 0%, #DE8300 91.96%);
+        }
+      }
+    }
+
+    .custom_footer {
+      display: flex;
+      gap: 2rem;
+      padding-top: 3rem;
+
+      .edit_venue_btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 16px;
+        gap: 8px;
+
+        width: 120px;
+        height: 36px;
+        background: transparent;
+        background: linear-gradient(92.39deg, #FF9700 0%, #DE8300 91.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+
+        border-radius: 14px;
+        font-family: 'SF UI Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        border: 1px dashed #ff9700;
+      }
+    }
+  }
+}
+
+// custom modal map venue list card
+.map_venue_list {
+
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leaflet-popup-content {
+    p {
+      margin: 0px;
+    }
+
+    h5 {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+}
+
+.pagination {
+  background: #0081CB;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 1rem;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+//customize scroll bar
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #D5EAFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64E2FF;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0081CB;
+}
+
+
+// global css for mobile
+@include media ('<=phone') {
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  // custom Error poppu
+  .custom_modal_error {
+    .content_Wrapper_error {
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+
+}
+
+@include media (">phone", "<=Lphone") {
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  // custom Error poppu
+  .custom_modal_error {
+    .content_Wrapper_error {
+      p {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+
+}
+
+
+
+
+.left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 12px;
+}
+
+/***** Main Content *****/
+.main-content {
+  margin-left: 350px;
+  margin-top: 3rem;
+  transition: all 0.3s ease;
+}
+
+
+.rc-time-picker-panel {
+  .rc-time-picker-panel-combobox {
+    display: flex !important;
+  }
+}
+
+// loader on full page
+
+.loader_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8ad;
+
+  .loader {
+    left: 50%;
+    top: 50%;
+    z-index: 999 !important;
+    position: absolute;
+  }
+
+}
+
+
+
+
+
+
+// general usesage purpose
+.css-mbdu2s {
+  background: linear-gradient(140.6deg, #002C6D 0%, #0082CF 100%) !important;
+  border-radius: 8px !important;
+}
